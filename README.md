@@ -48,13 +48,13 @@ Relation set의 구성 및 정의, 가이드라인 작성, 파일럿 및 메인 
 ### tagtog_csv 파일들의 라벨과 entity pair 확인
 
 ```
-@ezez-refer
+@JN-Jeong
 
 1. eda.py의 total_path에 tagtog의 json file을 csv로 변환한 파일들의 합본을 저장할 경로 설정
 2. eda.py의 files_path에 tagtog의 json file을 csv로 변환한 파일들이 있는 폴더로 설정
 3. eda.py의 eda_save_path에 EDA 결과를 저장할 경로를 설정
 
-3. python eda.py 실행
+4. python eda.py 실행
 
 ```
 
@@ -63,7 +63,7 @@ Relation set의 구성 및 정의, 가이드라인 작성, 파일럿 및 메인 
 ### 메인 태깅 후 annotator로 참여한 라벨을 불러오고 iaa를 위해 label을 num 값으로 변경
 
 ```
-@ezez-refer
+@JN-Jeong
 
 1. 56 line에 main tagging한 csv 파일 경로 설정
 2. 57 line에 출력 결과물을 저장할 경로 및 이름 설정
